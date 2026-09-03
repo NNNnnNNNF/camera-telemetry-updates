@@ -2,14 +2,14 @@
     "schema":  1,
     "product":  "CameraTelemetry",
     "channel":  "stable",
-    "version":  "2.0.1",
-    "publishedUtc":  "2026-09-03T06:39:03.3125892Z",
+    "version":  "2.0.2",
+    "publishedUtc":  "2026-09-03T06:52:35.1337553Z",
     "available":  true,
     "mandatory":  false,
-    "releaseNotes":  "测试新版本发布和客机更新",
-    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.1/CameraTelemetry-core-2.0.1.zip",
-    "size":  132542,
-    "sha256":  "f87aa0169b92635acf37efc813a2d71765339126f8906db6f609ba6da54cb7c2",
+    "releaseNotes":  "界面右上角和窗口标题现在会常驻显示版本号，例如 v2.0.1，数据直接读取 [version.json](D:\\\\CameraTelemetryPackage-开发板\\\\version.json)。\n“首次启动录制引擎”提示增加了持久化状态。升级后最多出现一次，确认后写入用户设置，后续启动不再重复。\n\r\nOBS 的 FirstRun 已修正为 false，不会再被软件每次重置成首次运行，也不会反复触发 OBS 自动配置向导。\r\n\n新增了主程序专项回归测试，并接入安装包构建前检查。",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.2/CameraTelemetry-core-2.0.2.zip",
+    "size":  132959,
+    "sha256":  "d0d795e7b73e7e2e27d859542f0cc744289998fad9864129c91314d87275ce33",
     "signatureAlgorithm":  "RSA-SHA256-PKCS1",
-    "signature":  "2gFTIjHw53s4JqNdqLYY0v8NnCIhZcXzkon6mdfiKUTR24i9CNu3nFKRV3UaFyJLPyl2pbOI8Rzt7JgxPsC28836rl/FwkD+4C0ntlkRIG2v0NQN2FTc4JXlHdNDCesQO+4HQhYr6LZEHD1Ihk1AdhwWHlN09VkCay/ZZ3l0ZyxdRNsZuGewMZio934hPh0TmSnVjBoNES68HD+ggGEOxeEqvjs+zeZa0ZAg39AwDytIuevh7XEqdv3sQKxRi0TlWFkwptTw0/MpIvVxg39Ftw/XWOdXguzCg/cJrPUlDKeYyvGsC2HZ8g90dClwLyWW8szZkPPYuWDYdUHy8lS6AA=="
+    "signature":  "f3UcuEcrvjj+n8K7pqlXNYvVvRlVgEmPAAEwwZ13L+8FVaNX31WM/IIzEEUeUuiu7D6T0yPxpKeT+UTck+4kboSFa4fclWrUYHFj72lI716ZY4zjJlWWXXWDgmUnvBeMzlOpV5oXkv5GJVUQZgMKvtYWR/SLrJP05WzTmX+aB0Smp4pzK5rpaRUSVs3mqKOlBIffSwalC9GhwCye4YJtla9NJcXHndZaV4bky9k74V9grAA6i+yFPgiHqbpPpAVF9Qt8SqlPobwqB/Bbh00UEVcSzEvAbnYkw0qZnr96Whmt2n1gaPRYsCdQmaCUIt4iL5rYmOtVKq+IzaDvfsYIfQ=="
 }
