@@ -2,14 +2,14 @@
     "schema":  1,
     "product":  "CameraTelemetry",
     "channel":  "stable",
-    "version":  "2.0.2",
-    "publishedUtc":  "2026-09-03T06:52:35.1337553Z",
+    "version":  "2.0.3",
+    "publishedUtc":  "2026-09-03T07:04:46.3257715Z",
     "available":  true,
     "mandatory":  false,
-    "releaseNotes":  "界面右上角和窗口标题现在会常驻显示版本号，例如 v2.0.1，数据直接读取 [version.json](D:\\\\CameraTelemetryPackage-开发板\\\\version.json)。\n“首次启动录制引擎”提示增加了持久化状态。升级后最多出现一次，确认后写入用户设置，后续启动不再重复。\n\r\nOBS 的 FirstRun 已修正为 false，不会再被软件每次重置成首次运行，也不会反复触发 OBS 自动配置向导。\r\n\n新增了主程序专项回归测试，并接入安装包构建前检查。",
-    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.2/CameraTelemetry-core-2.0.2.zip",
-    "size":  132959,
-    "sha256":  "d0d795e7b73e7e2e27d859542f0cc744289998fad9864129c91314d87275ce33",
+    "releaseNotes":  "FirstRun=true 表示首次配置已经完成，会阻止“自动配置向导”。\r\n\n主程序会在启动 OBS 前同时修正 global.ini 和 user.ini。\r\n\n应用自己的首次授权提示仍然只展示一次。",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.3/CameraTelemetry-core-2.0.3.zip",
+    "size":  132962,
+    "sha256":  "9096313206acb92a37bb7798b79657e59433e54a405a0a03cd1192f9101bc693",
     "signatureAlgorithm":  "RSA-SHA256-PKCS1",
-    "signature":  "f3UcuEcrvjj+n8K7pqlXNYvVvRlVgEmPAAEwwZ13L+8FVaNX31WM/IIzEEUeUuiu7D6T0yPxpKeT+UTck+4kboSFa4fclWrUYHFj72lI716ZY4zjJlWWXXWDgmUnvBeMzlOpV5oXkv5GJVUQZgMKvtYWR/SLrJP05WzTmX+aB0Smp4pzK5rpaRUSVs3mqKOlBIffSwalC9GhwCye4YJtla9NJcXHndZaV4bky9k74V9grAA6i+yFPgiHqbpPpAVF9Qt8SqlPobwqB/Bbh00UEVcSzEvAbnYkw0qZnr96Whmt2n1gaPRYsCdQmaCUIt4iL5rYmOtVKq+IzaDvfsYIfQ=="
+    "signature":  "YGes1JdAXm/42LLigk++KZmGQRPa4hF3BoOmwXb6EzfN69TaNbZohk81otZ7K77uge9Ti7cIoroS3anJbl39QRFcck9VvMRUEej4v0fN0fBH4hOwRdhtZ7TYANeaY+elOZpz3n87lvT5Zx/POL7v2G1c1s7fWxmiUuirMJCp+rPVLLG6QMZBHe/Bc93cFK6H5HmivtMpXJKH/zmsngUlRBymybsODdYZZHq9b4+bGuy2oLzHli+OhCjFyRZgKa88rgPW/aZ1bwZCxR+1IZLq5nuPK9NOnd5J9vlP/QpCFPHn9DqSz6gsfliFWPOEjvaxAjTxwXmsDPs51uZmoxgWAw=="
 }
