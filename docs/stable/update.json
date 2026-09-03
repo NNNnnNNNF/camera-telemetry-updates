@@ -1,8 +1,15 @@
 {
-  "schema": 1,
-  "product": "CameraTelemetry",
-  "channel": "stable",
-  "version": "2.0.0",
-  "publishedUtc": "2026-09-03T05:38:00Z",
-  "available": false
+    "schema":  1,
+    "product":  "CameraTelemetry",
+    "channel":  "stable",
+    "version":  "2.0.1",
+    "publishedUtc":  "2026-09-03T06:39:03.3125892Z",
+    "available":  true,
+    "mandatory":  false,
+    "releaseNotes":  "测试新版本发布和客机更新",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.1/CameraTelemetry-core-2.0.1.zip",
+    "size":  132542,
+    "sha256":  "f87aa0169b92635acf37efc813a2d71765339126f8906db6f609ba6da54cb7c2",
+    "signatureAlgorithm":  "RSA-SHA256-PKCS1",
+    "signature":  "2gFTIjHw53s4JqNdqLYY0v8NnCIhZcXzkon6mdfiKUTR24i9CNu3nFKRV3UaFyJLPyl2pbOI8Rzt7JgxPsC28836rl/FwkD+4C0ntlkRIG2v0NQN2FTc4JXlHdNDCesQO+4HQhYr6LZEHD1Ihk1AdhwWHlN09VkCay/ZZ3l0ZyxdRNsZuGewMZio934hPh0TmSnVjBoNES68HD+ggGEOxeEqvjs+zeZa0ZAg39AwDytIuevh7XEqdv3sQKxRi0TlWFkwptTw0/MpIvVxg39Ftw/XWOdXguzCg/cJrPUlDKeYyvGsC2HZ8g90dClwLyWW8szZkPPYuWDYdUHy8lS6AA=="
 }
