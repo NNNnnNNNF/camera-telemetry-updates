@@ -2,14 +2,14 @@
     "schema":  1,
     "product":  "CameraTelemetry",
     "channel":  "stable",
-    "version":  "2.0.4",
-    "publishedUtc":  "2026-09-08T10:48:06.7609639Z",
+    "version":  "2.0.5",
+    "publishedUtc":  "2026-09-08T15:20:13.5185882Z",
     "available":  true,
     "mandatory":  false,
-    "releaseNotes":  "修复按键延迟，增加鼠标轨迹捕获",
-    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.4/CameraTelemetry-core-2.0.4.zip",
-    "size":  137623,
-    "sha256":  "a19c300defa206757077324b611af7f17481e709b1dd18c5227c63a715bc8d11",
+    "releaseNotes":  "使用gpt6修复延迟问题，上一版并未完全修复",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.5/CameraTelemetry-core-2.0.5.zip",
+    "size":  147269,
+    "sha256":  "8c8b85620f007f27d8cb60cb193474e81650ebe23444cc44df976e398ced1a54",
     "signatureAlgorithm":  "RSA-SHA256-PKCS1",
-    "signature":  "NGUflZZrg0iFBaMWB467Y8Dnaps481f2Rz6qiPXjQ5tBwLCvvniIZj0A6kPxDZxUej91uoLJbVibYH5E3knM1aIlDKJSwsH3BUfY3hwGGKKnFpzQJemK2RFJyYqwA+VE7leSnxTeb0spDpK49dEzWy7nOuCwW9tlUOi3Oh2x8C+iOLvOCS0RVRGLQuUv/sde8GLF1m7e6UN9QGAkM/dwpkSwpjzSrJDMyUEWWO8d3dIam9z9CV/k6HbkMIfPCjwVI2RTs5PWn4fkAL9FHgOD1wZuaBnY8K3p1JC/cVN3AOIfrJXsyvrrK4/aiZzMKlq2wKtdHZ09g0TH9Pn85yxT+w=="
+    "signature":  "ycRVRslrmfWkl9erVSicVfvDTGdEFx3qOuOGeT8vKCz+/C0opMZAfitEVMbH0uwnFVJj0W3OP7KJGg1oVPgHo5BnuVdwHnzmwEX37baaQmjxHrDASBPij4c/AOb9QGLT9YKPNPUUrbd48az81WP+mkSAm9bZN5CUFDoJPBLy7z9FKpSjTtTJq12hansVkYQbFFKYviasBDGZ6XOSl51mXBtA9r30lkCMTMNSuplnMvGKSM790ORtokmrTjBX23gyXmqLOimelpxZKd4ap+y5QT+qOJeUoxfJIddGy+KHUTCOiU/rDIJx+jg7lW0s1mQM0oytoJ4kUWPw8tNtCg+eFg=="
 }
