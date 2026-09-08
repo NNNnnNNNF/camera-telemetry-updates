@@ -2,14 +2,14 @@
     "schema":  1,
     "product":  "CameraTelemetry",
     "channel":  "stable",
-    "version":  "2.0.3",
-    "publishedUtc":  "2026-09-03T07:04:46.3257715Z",
+    "version":  "2.0.4",
+    "publishedUtc":  "2026-09-08T10:48:06.7609639Z",
     "available":  true,
     "mandatory":  false,
-    "releaseNotes":  "FirstRun=true 表示首次配置已经完成，会阻止“自动配置向导”。\r\n\n主程序会在启动 OBS 前同时修正 global.ini 和 user.ini。\r\n\n应用自己的首次授权提示仍然只展示一次。",
-    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.3/CameraTelemetry-core-2.0.3.zip",
-    "size":  132962,
-    "sha256":  "9096313206acb92a37bb7798b79657e59433e54a405a0a03cd1192f9101bc693",
+    "releaseNotes":  "修复按键延迟，增加鼠标轨迹捕获",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.4/CameraTelemetry-core-2.0.4.zip",
+    "size":  137623,
+    "sha256":  "a19c300defa206757077324b611af7f17481e709b1dd18c5227c63a715bc8d11",
     "signatureAlgorithm":  "RSA-SHA256-PKCS1",
-    "signature":  "YGes1JdAXm/42LLigk++KZmGQRPa4hF3BoOmwXb6EzfN69TaNbZohk81otZ7K77uge9Ti7cIoroS3anJbl39QRFcck9VvMRUEej4v0fN0fBH4hOwRdhtZ7TYANeaY+elOZpz3n87lvT5Zx/POL7v2G1c1s7fWxmiUuirMJCp+rPVLLG6QMZBHe/Bc93cFK6H5HmivtMpXJKH/zmsngUlRBymybsODdYZZHq9b4+bGuy2oLzHli+OhCjFyRZgKa88rgPW/aZ1bwZCxR+1IZLq5nuPK9NOnd5J9vlP/QpCFPHn9DqSz6gsfliFWPOEjvaxAjTxwXmsDPs51uZmoxgWAw=="
+    "signature":  "NGUflZZrg0iFBaMWB467Y8Dnaps481f2Rz6qiPXjQ5tBwLCvvniIZj0A6kPxDZxUej91uoLJbVibYH5E3knM1aIlDKJSwsH3BUfY3hwGGKKnFpzQJemK2RFJyYqwA+VE7leSnxTeb0spDpK49dEzWy7nOuCwW9tlUOi3Oh2x8C+iOLvOCS0RVRGLQuUv/sde8GLF1m7e6UN9QGAkM/dwpkSwpjzSrJDMyUEWWO8d3dIam9z9CV/k6HbkMIfPCjwVI2RTs5PWn4fkAL9FHgOD1wZuaBnY8K3p1JC/cVN3AOIfrJXsyvrrK4/aiZzMKlq2wKtdHZ09g0TH9Pn85yxT+w=="
 }
