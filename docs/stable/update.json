@@ -2,14 +2,14 @@
     "schema":  1,
     "product":  "CameraTelemetry",
     "channel":  "stable",
-    "version":  "2.0.5",
-    "publishedUtc":  "2026-09-08T15:20:13.5185882Z",
+    "version":  "2.0.6",
+    "publishedUtc":  "2026-09-10T06:34:29.6153040Z",
     "available":  true,
     "mandatory":  false,
-    "releaseNotes":  "使用gpt6修复延迟问题，上一版并未完全修复",
-    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.5/CameraTelemetry-core-2.0.5.zip",
-    "size":  147269,
-    "sha256":  "8c8b85620f007f27d8cb60cb193474e81650ebe23444cc44df976e398ced1a54",
+    "releaseNotes":  "优化f10启停的延迟；优化鼠标轨迹导致的灵敏度异常",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.6/CameraTelemetry-core-2.0.6.zip",
+    "size":  153037,
+    "sha256":  "f40e1b4ca1e8b8fef517969d20e7985d1502ac5f73b4aef41ff993bcfcf9df44",
     "signatureAlgorithm":  "RSA-SHA256-PKCS1",
-    "signature":  "ycRVRslrmfWkl9erVSicVfvDTGdEFx3qOuOGeT8vKCz+/C0opMZAfitEVMbH0uwnFVJj0W3OP7KJGg1oVPgHo5BnuVdwHnzmwEX37baaQmjxHrDASBPij4c/AOb9QGLT9YKPNPUUrbd48az81WP+mkSAm9bZN5CUFDoJPBLy7z9FKpSjTtTJq12hansVkYQbFFKYviasBDGZ6XOSl51mXBtA9r30lkCMTMNSuplnMvGKSM790ORtokmrTjBX23gyXmqLOimelpxZKd4ap+y5QT+qOJeUoxfJIddGy+KHUTCOiU/rDIJx+jg7lW0s1mQM0oytoJ4kUWPw8tNtCg+eFg=="
+    "signature":  "3ovqshh08WRljlD9dGbQg/ouYQGqdunzr+r7D2GIrWk3l+GhUY37NLMMwlmEJoWP8LPRc1OzoFxKQfEELR0UB1coFa++KH8sZGJv7QY4xhyx4ZIT8GPrLUDo0mgB1UM2cKj/oh6y0i/OCH+9EH6wz15zLyEkxuiJEYPNN53cemCQxR+nnqQOHTW2FP7fcvRhqMllgGEVjR5HedlGuVKORhgUBMY/awR08XZefk/b0X4ZcbUYWT4rgPhK/t2oPluHbulx3UkbyMhTOgV+pOlP80r1f6eRXS0YmJNDewxsEjMZAg8BtRLgXORD+uNNVrMHypo39Td1f/a0uTfzaD+Riw=="
 }
