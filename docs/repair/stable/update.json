@@ -1,0 +1,14 @@
+{
+    "publishedUtc":  "2026-09-11T01:46:18.6758553Z",
+    "signatureAlgorithm":  "RSA-SHA256-PKCS1",
+    "sha256":  "d4f00eb43135dca945b145ac9e9745195b55bd8011b8f6b5c7bc7b42858bebbd",
+    "size":  182506,
+    "version":  "1.0.0",
+    "signature":  "OejpdpCSxQyRO7gu6RmJT0auuhb3V3xwfk86EEI/MIQwh52oQDaCE1ObDdV1SDm7KYTNkuzZVl5snKpq5mkwlwZ7umSXrdSsNOyQcHTgoYCZ98UGnpKKHrjVRXBqFjn0okgQTmjy2nA2sAjSssqtYTvtZBv+e5ntz5DH4IM/fENASBhaD/le4KF56FDI6vZH3NcPQ4Auv5JlPLqKAh4hAwTispozN3VEXyn4VWta3MYPXsJPFhgtAiUZsSNL8DMNeuZ0t4F/rJPdSmoqgOC511KYPkvmPEwPG6T3BNfHa5vOBB9XNGwoGa05OzqCBtDfS5OhQ5fXQ945sXkHvgdIRA==",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/repair-v1.0.0/RepairWorkbench-core-1.0.0.zip",
+    "channel":  "repair-stable",
+    "releaseNotes":  "测试新版本",
+    "schema":  1,
+    "product":  "CameraTelemetryRepair",
+    "available":  true
+}
