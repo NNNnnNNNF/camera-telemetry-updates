@@ -2,14 +2,14 @@
     "schema":  1,
     "product":  "CameraTelemetry",
     "channel":  "stable",
-    "version":  "2.0.6",
-    "publishedUtc":  "2026-09-10T06:34:29.6153040Z",
+    "version":  "2.0.7",
+    "publishedUtc":  "2026-09-16T02:42:09.2870558Z",
     "available":  true,
     "mandatory":  false,
-    "releaseNotes":  "优化f10启停的延迟；优化鼠标轨迹导致的灵敏度异常",
-    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.6/CameraTelemetry-core-2.0.6.zip",
-    "size":  153037,
-    "sha256":  "f40e1b4ca1e8b8fef517969d20e7985d1502ac5f73b4aef41ff993bcfcf9df44",
+    "releaseNotes":  "新增日志记录；\r\n临时写入，核对所有选中片段、文件数量和大小后，才生成正式 ZIP。\r\n\n不再忽略 ZIP 收尾错误；失败或取消时保留之前成功的包。\n\r\n导出期间禁止直接关闭主窗口。\n\r\n临时目录移到缓存目录，成功提示明确显示完成多少条。",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.7/CameraTelemetry-core-2.0.7.zip",
+    "size":  157669,
+    "sha256":  "39402228dcf3305619465edf8fb27c407346e49845bce521c68c621f1046796a",
     "signatureAlgorithm":  "RSA-SHA256-PKCS1",
-    "signature":  "3ovqshh08WRljlD9dGbQg/ouYQGqdunzr+r7D2GIrWk3l+GhUY37NLMMwlmEJoWP8LPRc1OzoFxKQfEELR0UB1coFa++KH8sZGJv7QY4xhyx4ZIT8GPrLUDo0mgB1UM2cKj/oh6y0i/OCH+9EH6wz15zLyEkxuiJEYPNN53cemCQxR+nnqQOHTW2FP7fcvRhqMllgGEVjR5HedlGuVKORhgUBMY/awR08XZefk/b0X4ZcbUYWT4rgPhK/t2oPluHbulx3UkbyMhTOgV+pOlP80r1f6eRXS0YmJNDewxsEjMZAg8BtRLgXORD+uNNVrMHypo39Td1f/a0uTfzaD+Riw=="
+    "signature":  "v1M3B1oqpEnaiN5e5XZQIvr/gpPikflzQwI4APUCouSrbndPiP9FoxgeZFNe5oByBDjMmu/2FoGuXcZFjuaa2LRFUmXIJN19H7hh7sO1brvSdeS1WEIuqXf3tbyb01Xs71zkM0YYYINlcm53qR5vIy+DcxbHj5t/FKqLe+E8PYvOcYDPmRjRX+hTCWRxceaT04YuI+TKhi4fQWY8BJZMWmecT7bgIWhvuJQ1nOiTI68jssoX8dNC3EwFzlm7jbAef8LL6TRE8c5VipoEpdYyQnIVfaQp/Y+5LSaJ5YxJb+lGfNftnuyfX/ruBZMBUndytacOpq29hp/kzP6YM0zFWA=="
 }
