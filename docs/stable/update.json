@@ -2,14 +2,14 @@
     "schema":  1,
     "product":  "CameraTelemetry",
     "channel":  "stable",
-    "version":  "2.0.8",
-    "publishedUtc":  "2026-09-21T07:33:08.1307352Z",
+    "version":  "2.0.9",
+    "publishedUtc":  "2026-09-23T12:02:53.1991242Z",
     "available":  true,
     "mandatory":  false,
-    "releaseNotes":  "防御优化：\r\n录制《刺客信条：影》等其他游戏，却同时开启了《巫师 3》专用相机采集：原来软件会启动采集器，白等 8 秒，最后报“缺少 camera.ndjson”。\n现在启动前就拦截，明确提示：“当前游戏不支持相机采集，请取消勾选‘启用相机遥测’后重新录制。”",
-    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.8/CameraTelemetry-core-2.0.8.zip",
-    "size":  158330,
-    "sha256":  "19ea02d4fdb618eaae6f8ffc7df2474d724d8fbbadbd827da6e92a93cd4ceaf1",
+    "releaseNotes":  "针对反馈只能在录制界面使用快捷键的问题做了简易优化，关于反馈的问题加了针对性探针。细化日志输出",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.9/CameraTelemetry-core-2.0.9.zip",
+    "size":  167587,
+    "sha256":  "ac0af49ccc0695eaebad2bd63dfb163a31bbaeb28398f06ee5513cc16b693089",
     "signatureAlgorithm":  "RSA-SHA256-PKCS1",
-    "signature":  "S2UcWXv4xABY8udbBw/9nwizkmB3jc+tvkhgdfyvSqoxtDf0NEH5XOx0XIbzI1gq1G2oh2WXiYW/rMuM7BV0XJrrz+E7Z70lwVLXTvrPJcO28j/vx2sQS6Qx4CBJIg6YebQ3HY9jOvcLG+cHGGhrOdb9DFboMvatS4wAEzZw1/J7nJAcVH6mDGtELG45G7dXqTf3Pr3aZDDFBZKbP912sisRJUbtumrLABxjIyNeFxx3H5vHDgOprskfFP/9Avpx2alftvtrQjE++kiUxoFX7lElpFQxKFbZkwjw3Mi79AkXbpMlEABLbP9yfYduUq5zcuUGq05ujf8rQ8trCwqBFQ=="
+    "signature":  "imWLP3vyzaaMzB/HGJd5QjXeuX94fr5BQF5RQqZ8QLPu6KnFC3A2gGivUNTWjhVcCji02/zVLo1E+rEP5M22pQz2QfUQSmNJzknG1HwM+Af+shXp94PZV5uBB3xcqVrtZ6i0yhr4Gb0+ihOAqO0YverlhCV8P6SSu3dR/OKvEBoE+TdnQ/YOwtHHynUZ1hwHMeyWl+i742qHG1U/KI/RZplLc0Ml0aDC1uJaGyBlCZYAJmy3ofZszIx+f0DWkxow0wGHB9pxKJiNzYN9Y1R87vmNglky9+osaaw2Qt4IJ7sv3UvmlsfBbqcGzaK1JxEyvEHdp6lnDEZ+pmltiH9V+A=="
 }
