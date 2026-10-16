@@ -2,14 +2,14 @@
     "schema":  1,
     "product":  "CameraTelemetry",
     "channel":  "stable",
-    "version":  "2.0.10",
-    "publishedUtc":  "2026-09-30T07:18:57.0908130Z",
+    "version":  "3.0.0",
+    "publishedUtc":  "2026-10-16T10:47:24.3220479Z",
     "available":  true,
     "mandatory":  false,
-    "releaseNotes":  "对于旧数据的修复处理：修正旧数据的索引生成方式，按视频真实帧时间补建",
-    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v2.0.10/CameraTelemetry-core-2.0.10.zip",
-    "size":  169563,
-    "sha256":  "df7c59ffa5cd2a8563d0ee9a27b55c2416b965ba37246fa8b126506bbd03bd88",
+    "releaseNotes":  "完整原片可反复剪辑，不再因“已处理”状态被禁用。\n\r\n已有剪辑片段也可再次剪辑，列表新增“类型”列区分两者。\n\r\n每次确认都生成独立的新片段目录，保留原视频、键鼠、相机和时钟数据，并阻止覆盖原目录或已有成品。\n\r\n中断或失败后仍可从原片重试，未完成的结果不能导出。",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v3.0.0/CameraTelemetry-core-3.0.0.zip",
+    "size":  183952,
+    "sha256":  "7c70d1c84f842804603c626e99cf66004e8dbd465b0d77653cc4e663762467d8",
     "signatureAlgorithm":  "RSA-SHA256-PKCS1",
-    "signature":  "Fvg1JXqfBe7kyXd7Jhdc6kS1c9wheJCepySTwfku/smPPWHK2kF3WqjnLCGopt/glUrF0LSqs/WvDPE6CkYKTxg9aIBzkVfB//nGeIhTbx+1YmsA9zimq7KrmpLmjeNHDMm/A3Iq0Lmb16fCTps7VlarHZz3sRXvafowH3PzjjS2s1T8ZRyEB6lwYOQeotMPzyWyyaT+Z/cOSdkZAGtqdYxZYcjwz+1cIRmsec3wBp4/XjaejHHCFnoDs8tN4EX6jdEJOQLtnd2IYjGaeLbgFxNK+PNRe30yklXL0/p96q8d7zkIYNE+vBsT57ORmRpXFmQ8G4jXzR7RFHOrsheQrA=="
+    "signature":  "p34p5TTMzO0qogwQtCNfY3mQQqnso4QD7L9PG7I8qwx/oLVnOn7/pMfziOIMFYxlJ6x4MrjMdRME+gpb6bHpYiXJT6+BLm4PraG+RsMtWpayP0CUCDzyJ03oJDdnwjDteLJDbSgxVtq5iZQvIjNS8Z4ffzzHjBNBV4HJIuBma6d680XXre8TFTkvJQcNK/j7DIP/6tZ2ifuAaBxBKMm/cDY/G0PehEoP1e4xY0tsFmWvmu4hRc2vr2w21ECy+0nqrxcIT5e3dgVbU/geRqw90AobFmtlDIKF2rzYFJFWiT2sqUfJrzFzqQASSjRvi1ox+NcJ2lCg2kQCwuHqbSPLtQ=="
 }
