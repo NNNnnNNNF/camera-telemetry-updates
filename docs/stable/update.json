@@ -2,14 +2,14 @@
     "schema":  1,
     "product":  "CameraTelemetry",
     "channel":  "stable",
-    "version":  "3.0.0",
-    "publishedUtc":  "2026-10-16T10:47:24.3220479Z",
+    "version":  "3.0.1",
+    "publishedUtc":  "2026-10-19T02:25:38.1374490Z",
     "available":  true,
     "mandatory":  false,
-    "releaseNotes":  "完整原片可反复剪辑，不再因“已处理”状态被禁用。\n\r\n已有剪辑片段也可再次剪辑，列表新增“类型”列区分两者。\n\r\n每次确认都生成独立的新片段目录，保留原视频、键鼠、相机和时钟数据，并阻止覆盖原目录或已有成品。\n\r\n中断或失败后仍可从原片重试，未完成的结果不能导出。",
-    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v3.0.0/CameraTelemetry-core-3.0.0.zip",
-    "size":  183952,
-    "sha256":  "7c70d1c84f842804603c626e99cf66004e8dbd465b0d77653cc4e663762467d8",
+    "releaseNotes":  "鼠标通道检测与放行缺口修复:\r\n录制时：独立监测鼠标移动通道，发现持续移动却没有对应轨迹时，提示并保护性停止。\r\n\n剪辑时：保留采集凭据、校验输入文件，二次剪辑不能绕过异常记录。\r\n\n导出时：再次检查。旧包没有轨迹且缺少凭据时进入待复核；正常注入输入、有完整凭据的静止片段可以通过。",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v3.0.1/CameraTelemetry-core-3.0.1.zip",
+    "size":  187858,
+    "sha256":  "8bcf52678bd8205dafa7192a94813236641320ad5e546fcc5c448c43ac1e2f37",
     "signatureAlgorithm":  "RSA-SHA256-PKCS1",
-    "signature":  "p34p5TTMzO0qogwQtCNfY3mQQqnso4QD7L9PG7I8qwx/oLVnOn7/pMfziOIMFYxlJ6x4MrjMdRME+gpb6bHpYiXJT6+BLm4PraG+RsMtWpayP0CUCDzyJ03oJDdnwjDteLJDbSgxVtq5iZQvIjNS8Z4ffzzHjBNBV4HJIuBma6d680XXre8TFTkvJQcNK/j7DIP/6tZ2ifuAaBxBKMm/cDY/G0PehEoP1e4xY0tsFmWvmu4hRc2vr2w21ECy+0nqrxcIT5e3dgVbU/geRqw90AobFmtlDIKF2rzYFJFWiT2sqUfJrzFzqQASSjRvi1ox+NcJ2lCg2kQCwuHqbSPLtQ=="
+    "signature":  "5c0LP/oys8yfK1GLCdNnq1zHJkqgJHqi2Dc5DEAJKJb1JmnbwINuUnCTEFoMBI2fj/v2ptuPpLevEoaBIuRVJfiEAAIEZWlt+JldSJeo5UikjKXCW6wX30vth1VjJxauEhgwZZaLqFVbl0ndbetFmB7gZCRYQT/oxWpnVWUTkJEZYwavIOcOLlyuQ1cQtMWTDm3csJDwQJuVT2bhCjgRCKyuFAM70I95sP05amkJzT4ndZ/UPT5X186rRA2YMEUtuEVNMd4dtxe1e0ajnWTaV31pJl7xKB7Lzg7jOyeqIOit62NtTjDPrHMsTVXVvhp1OtepUkdEySvsfTvlLuUUPA=="
 }
