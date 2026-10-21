@@ -2,14 +2,14 @@
     "schema":  1,
     "product":  "CameraTelemetry",
     "channel":  "stable",
-    "version":  "3.0.1",
-    "publishedUtc":  "2026-10-19T02:25:38.1374490Z",
+    "version":  "3.0.2",
+    "publishedUtc":  "2026-10-21T06:36:46.3023105Z",
     "available":  true,
     "mandatory":  false,
-    "releaseNotes":  "鼠标通道检测与放行缺口修复:\r\n录制时：独立监测鼠标移动通道，发现持续移动却没有对应轨迹时，提示并保护性停止。\r\n\n剪辑时：保留采集凭据、校验输入文件，二次剪辑不能绕过异常记录。\r\n\n导出时：再次检查。旧包没有轨迹且缺少凭据时进入待复核；正常注入输入、有完整凭据的静止片段可以通过。",
-    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v3.0.1/CameraTelemetry-core-3.0.1.zip",
-    "size":  187858,
-    "sha256":  "8bcf52678bd8205dafa7192a94813236641320ad5e546fcc5c448c43ac1e2f37",
+    "releaseNotes":  "优化剪辑界面的语义表述；\r\n裁剪不再静默丢行：坏记录、未知类型或无效时间会明确中止；记录裁剪前后数量、保留范围及文件哈希，失败保留原始数据。\n\r\n补齐采集诊断：持续记录各输入通道的接收、处理、写入计数及异常。独立监听通道不一致、队列丢失、写入不完整会被检测；诊断包包含这些记录，便于区分采集与裁剪阶段。\r\n\n剪辑增加「键鼠检查」：位于右侧底部，默认收起。展开显示按键、鼠标按钮和轨迹，跟随实际预览位置；定位期间清空旧状态，不移动主视频和时间轴。",
+    "packageUrl":  "https://github.com/NNNnnNNNF/camera-telemetry-updates/releases/download/v3.0.2/CameraTelemetry-core-3.0.2.zip",
+    "size":  236790,
+    "sha256":  "6b63da09b803354c18fe7508e4b4466c662dc6db8c63d445520de20d53d37d73",
     "signatureAlgorithm":  "RSA-SHA256-PKCS1",
-    "signature":  "5c0LP/oys8yfK1GLCdNnq1zHJkqgJHqi2Dc5DEAJKJb1JmnbwINuUnCTEFoMBI2fj/v2ptuPpLevEoaBIuRVJfiEAAIEZWlt+JldSJeo5UikjKXCW6wX30vth1VjJxauEhgwZZaLqFVbl0ndbetFmB7gZCRYQT/oxWpnVWUTkJEZYwavIOcOLlyuQ1cQtMWTDm3csJDwQJuVT2bhCjgRCKyuFAM70I95sP05amkJzT4ndZ/UPT5X186rRA2YMEUtuEVNMd4dtxe1e0ajnWTaV31pJl7xKB7Lzg7jOyeqIOit62NtTjDPrHMsTVXVvhp1OtepUkdEySvsfTvlLuUUPA=="
+    "signature":  "OM/BtKe4kKtwBLm5syFYErszt6BaC0hfUZwUByym+pKjXnkEA0+ordCvJo14uZN0dFxY3n9+Nkb7kNDmqPsvU0sNnYjhzV1Onc5lD9X2MEiHnLt/g5rZWa7LdomKvAWXVXNnmQsFi/T6IcjoIgKxyLOfxs5BW3ldD93E6DL4V6/rfOuM0CF18Q/YcA+RuSz2tgp5MnU8KSTvg5tjKSQuAqLEggATNoPGk6BslUeqb9zIZ/xTsmA+87tIYiP76XZwkf/7Fzr8WdY1Mv/KXpGfR3LA4uKt5GysooSm+bYNoBMGpccdEgaJr5hOkOMZdsJjXAZWYZCVf0rQx8EDWDwUjg=="
 }
